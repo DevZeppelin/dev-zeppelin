@@ -27,7 +27,7 @@ const PostCard: React.FC<Prop> = ({ post }) => {
       </p>
       <div className="flex justify-end">
           <div className="bg-mygreen w-12 h-12 flex items-center justify-center rounded-full font-extrabold">
-            >
+            ►
           </div>
       </div>
     </div>

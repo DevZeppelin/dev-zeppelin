@@ -8,7 +8,7 @@ const PostCard: React.FC<Prop> = ({ post }) => {
   return (
     <div className="bg-mylightblue rounded-xl">
       <div className="rounded-xl">
-        <img src="/imgs/blog.png" className="rounded-xl" />
+        <img src="/imgs/blog.png" alt="imagen computadora blog" className="rounded-xl" />
       </div>
       <div className="p-4">
         <h5

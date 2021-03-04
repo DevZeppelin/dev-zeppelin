@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ArrorRightSvg from "../icons/ArrowRightSvg";
 
 interface Prop {
   post: any;
@@ -6,9 +7,9 @@ interface Prop {
 
 const PostCard: React.FC<Prop> = ({ post }) => {
   return (
-    <div className="bg-mylightblue rounded-xl">
+    <div className="bg-mylightblue rounded-xl" style={{maxWidth: 340}}>
       <div className="rounded-xl">
-        <img src="/imgs/blog.png" alt="imagen computadora blog" className="rounded-xl" />
+        <img src="/imgs/blog.png" alt="imagen computadora blog" className="rounded-xl w-full" style={{height: 220}} />
       </div>
       <div className="p-4">
         <h5
@@ -27,7 +28,7 @@ const PostCard: React.FC<Prop> = ({ post }) => {
       </p>
       <div className="flex justify-end">
           <div className="bg-mygreen w-12 h-12 flex items-center justify-center rounded-full font-extrabold">
-            ►
+            <ArrorRightSvg />
           </div>
       </div>
     </div>

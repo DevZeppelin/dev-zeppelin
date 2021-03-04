@@ -1,0 +1,17 @@
+/*purge css start ignore*/
+@tailwind base;
+@tailwind components;
+
+:root {
+    font-size: 18px
+}
+
+@media only screen and (max-width: 420px){
+    :root {
+        font-size: 16px
+    }
+}
+
+
+/*purge css end ignore*/
+@tailwind utilities;

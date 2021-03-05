@@ -16,7 +16,7 @@ const HamburgerSvg: React.FC<Props> = (props) => {
 
 
 HamburgerSvg.defaultProps = {
-  className: 'w-8 h-8 stroke-current text-white'
+  className: 'w-8 h-8 stroke-current text-mywhite'
 }
 
 

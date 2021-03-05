@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="flex-1">
             <h1
-              className="text-white text-4xl font-bold mb-8 mt-10 md:mb-8 md:mt-4"
+              className="text-mywhite text-4xl font-bold mb-8 mt-10 md:mb-8 md:mt-4"
               style={{ textShadow: "0px 10px 50px rgba(255, 255, 255, 0.45)" }}
             >
               Las páginas web del futuro

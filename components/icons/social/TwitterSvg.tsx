@@ -9,7 +9,7 @@ const TwitterSvg : React.FC<Props> = (props) => {
 }
 
 TwitterSvg.defaultProps = {
-    className: 'text-white'
+    className: 'text-mywhite'
 }
 
 export default TwitterSvg;

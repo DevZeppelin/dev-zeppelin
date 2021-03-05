@@ -9,7 +9,7 @@ const LinkedinSvg : React.FC<Props> = (props) => {
 }
 
 LinkedinSvg.defaultProps = {
-    className: 'text-white'
+    className: 'text-mywhite'
 }
 
 export default LinkedinSvg;

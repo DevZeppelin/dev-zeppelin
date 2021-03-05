@@ -9,7 +9,7 @@ const WhatsappSvg : React.FC<Props> = (props) => {
 }
 
 WhatsappSvg.defaultProps = {
-    className: 'text-white'
+    className: 'text-mywhite'
 }
 
 export default WhatsappSvg;

@@ -13,7 +13,7 @@ const PostCard: React.FC<Prop> = ({ post }) => {
       </div>
       <div className="p-4">
         <h3
-          className="text-white text-xl mb-4"
+          className="text-mywhite text-xl mb-4"
           style={{ textShadow: "0px 10px 50px rgba(255, 255, 255, 2.45)" }}
         >
           El futuro es hoy

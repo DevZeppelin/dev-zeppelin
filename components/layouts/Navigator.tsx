@@ -28,7 +28,7 @@ const Navigator: React.FC = (props) => {
           </div>
           <div className="pr-4">
             <img
-              src="imgs/avatar.png"
+              src="imgs/avatar.webp"
               alt="avatar gino pietrobon"
               className="hidden md:block w-14 h-14 rounded-full"
             ></img>

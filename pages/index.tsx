@@ -9,7 +9,7 @@ import PostCard from "../components/posts/PostCard";
 
 export default function Home() {
   return (
-    <div className="h-full pb-1 bg-myblue">
+    <div className="h-full md:h-screen pb-1 bg-myblue">
       <Head>
         <title>Dev Zeppelin</title>
         <link rel="icon" href="/favicon.ico" />
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="flex-1">
             <h1
-              className="text-white text-4xl font-bold mb-8 mt-4"
+              className="text-white text-4xl font-bold mb-8 mt-10 md:mb-8 md:mt-4"
               style={{ textShadow: "0px 10px 50px rgba(255, 255, 255, 0.45)" }}
             >
               Las páginas web del futuro
@@ -70,9 +70,9 @@ export default function Home() {
               ipsum culpa. Officia cum minima sunt, cumque maiores dignissimos.
             </div>
             <div className="hidden lg:block">
-              <h3 className="text-xl text-mywhite mb-4 my-8">
+              <h2 className="text-xl text-mywhite mb-4 my-8">
                 Para más información
-              </h3>
+              </h2>
               <div className="flex">
                 <div
                   style={{ backgroundColor: "#11698e" }}
@@ -98,23 +98,24 @@ export default function Home() {
 
           <div className="hidden md:flex flex-col items-center flex-1">
             <section>
-              <h4 className="text-mywhite text-2xl text-center mb-4">
+              <h2 className="text-mywhite text-2xl text-center mb-4">
                 Entradas Recientes
-              </h4>
+              </h2>
               <div className="mx-4">
                 <PostCard post={{}} />
               </div>
             </section>
           </div>
         </section>
-        <section className="md:hidden">
-          <h4 className="text-mywhite text-2xl text-center mb-4">
+        <section className="md:hidden flex flex-col items-center mb-4">
+          <h2 className="text-mywhite text-2xl text-center mb-4">
             Entradas Recientes
-          </h4>
+          </h2>
           <div className="mx-4">
             <PostCard post={{}} />
           </div>
         </section>
+        <section></section>
       </main>
     </div>
   );

@@ -6,7 +6,8 @@ class MyDocument extends Document {
 
     return (
       <html lang="es">
-        <Head>        
+        <Head>
+        <link rel="icon" href="/favicon.ico" />          
         </Head>
         <head>
           <meta charSet="UTF-8" />
@@ -16,7 +17,7 @@ class MyDocument extends Document {
           />
           <meta
             name="keywords"
-            content="páginas web sitio web plataformas rápidas ultra veloces seo perfomance ecommerce dinero"
+            content="página web, perfomance, seo, fast, original, react, next, pro"
           />
           <meta name="author" content="Gino Pietrobon" />          
           

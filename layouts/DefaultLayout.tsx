@@ -6,7 +6,7 @@ import SocialSidebar from '../components/layouts/SocialSidebar';
 
 const DefaultLayout: React.FC = (props) => {
     return (
-        <div className="h-full md:h-full pb-1 bg-myblue">
+        <div className="h-full md:h-screen pb-1 bg-myblue">
         <Head>
           <title>Dev Zeppelin</title>
           <link rel="icon" href="/favicon.ico" />         

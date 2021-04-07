@@ -1,10 +1,18 @@
+import React, { useState } from "react";
 import PostsGrid from "../components/home/PostsGrid";
 import SendSvg from "../components/icons/SendSvg";
 import PostCard from "../components/posts/PostCard";
+import Prismic from "prismic-javascript"
+import { Client } from "../config/prismic-configuration";
 import DefaultLayout from "../layouts/DefaultLayout";
 
-export default function Home() {
+
+
+export default function Home () {
+
+ 
   return (
+    
     <DefaultLayout>
 
       <div>
@@ -52,30 +60,30 @@ export default function Home() {
             </div>
           </div>
           <div className="hidden md:flex flex-col items-center flex-1">
-            <section>
+            {/* <section>
               <h2 className="text-mywhite text-2xl text-center mb-4">
                 Entradas Recientes
                 </h2>
               <div className="mx-4">
                 <PostCard post={{}} />
               </div>
-            </section>
+            </section> */}
           </div>
         </section>
-        <section className="md:hidden flex flex-col items-center mb-4">
+        {/* <section className="md:hidden flex flex-col items-center mb-4">
           <h2 className="text-mywhite text-2xl text-center mb-4">
             Entradas Recientes
             </h2>
           <div className="mx-4">
-            <PostCard post={{}} />
+            <PostCard post={{}}/>
           </div>
-        </section>
+        </section> */}
         <div className="h-1 bg-mygreen my-8 mx-1 sm:hidden"></div>
-        <section>
+       {/*  <section>
           <div className="px-4 md:px-8">
-            <PostsGrid posts={[1, 2, 3, 4, 5, 6]} />
+            <PostsGrid posts={[]} />
           </div>
-        </section>
+        </section> */}
       </div>
 </DefaultLayout >
 );

@@ -1,11 +1,14 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
+
+import React from "react";
 
 class MyDocument extends Document {  
 
   render() {    
-
+    
+    
     return (
-      <html lang="es">
+      <Html lang="es">
         <Head>
         <link rel="icon" href="/favicon.ico" />          
         </Head>
@@ -27,10 +30,12 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          
         </body>
-      </html>
+      </Html>
     );
   }
 }
+
 
 export default MyDocument;

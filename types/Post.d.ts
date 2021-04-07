@@ -1,5 +1,5 @@
 interface IPostContent {
-    banner_images: any[],
+    banner_image: any,
     body: any[],
     description: any[],
     title: any[]

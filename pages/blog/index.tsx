@@ -6,7 +6,7 @@ import Prismic from "prismic-javascript";
 import { Client } from "../../config/prismic-configuration";
 
 interface Props {
-  posts: any[];
+  posts: IPost[];
 }
 
 const Index: React.FC<Props> = ({ posts }) => {

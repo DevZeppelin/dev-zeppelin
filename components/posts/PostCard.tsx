@@ -2,7 +2,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import ArrorRightSvg from "../icons/ArrowRightSvg";
 
-
 interface Prop {
   post: IPost
 }
@@ -10,9 +9,8 @@ interface Prop {
 const PostCard: React.FC<Prop> = ({ post }) => {
 
   const { data } = post
-  console.log(post)
-
-  
+  console.log(post)  
+  console.log(data)
 
   return (
     <Link href={`/blog/${post.uid}`}>
@@ -42,7 +40,6 @@ const PostCard: React.FC<Prop> = ({ post }) => {
       </a>
     </Link>
   );
-
   
 };
 
